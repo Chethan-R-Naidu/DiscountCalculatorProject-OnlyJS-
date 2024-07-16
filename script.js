@@ -1,3 +1,4 @@
+<script>
 // Function to calculate the discount price of each product
 function calculateDiscountedPrices(...prices) {
   console.log("The value of products is", prices);
@@ -42,7 +43,7 @@ function getUserInputForPrices() {
   // Return the array of product prices
   return productPrices;
 }
-
+</script>
 // Call the getUserInputForPrices function to get the prices from the user and store them in userPrices
 let userPrices = getUserInputForPrices();
 let totalPayablePrice = calculateDiscountedPrices(...userPrices);

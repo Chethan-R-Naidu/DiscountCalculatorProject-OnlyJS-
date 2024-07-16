@@ -43,8 +43,9 @@ function getUserInputForPrices() {
   // Return the array of product prices
   return productPrices;
 }
-</script>
+
 // Call the getUserInputForPrices function to get the prices from the user and store them in userPrices
 let userPrices = getUserInputForPrices();
 let totalPayablePrice = calculateDiscountedPrices(...userPrices);
 console.log("Payable price is", totalPayablePrice);
+</script>
